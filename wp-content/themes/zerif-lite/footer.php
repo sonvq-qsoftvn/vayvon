@@ -20,7 +20,7 @@
 		$zerif_email = get_theme_mod('zerif_email','<a href="mailto:contact@site.com">contact@site.com</a>');
 		$zerif_email_icon = get_theme_mod('zerif_email_icon',get_template_directory_uri().'/images/envelope4-green.png');
 		
-		$zerif_phone = get_theme_mod('zerif_phone','<a href="tel:0 332 548 954">0 332 548 954</a>');
+		$zerif_phone = get_theme_mod('zerif_phone','<a href="tel:0917 062 652">0917.062.652</a>');
 		$zerif_phone_icon = get_theme_mod('zerif_phone_icon',get_template_directory_uri().'/images/telephone65-blue.png');
 
 		$zerif_socials_facebook = get_theme_mod('zerif_socials_facebook','#');

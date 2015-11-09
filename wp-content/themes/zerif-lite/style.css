@@ -1526,7 +1526,7 @@ object {
 }
 
 .navbar-brand {
-	height: 76px;
+	height: 128px;
 	position: relative;
 	line-height: 60px;
 	padding: 7px 15px;
@@ -3182,6 +3182,33 @@ article .posted-on a:hover{
 }
 .entry-content{
 	margin: 1em 0 0;
+    font-family: "Myriad Pro", Calibri, "Times New Roman";
+}
+.entry-content h3 {
+    font-family: "Myriad Pro", Calibri, "Times New Roman";
+    margin-top: 25px;
+}
+.entry-content ul li, .entry-content ol li {
+    line-height: 26px;
+}
+.feature-image-page {
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+}
+.register-btn {
+    color: #fff;
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 6px 24px;
+    background: #f99b1b;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.register-btn:hover {
+    color: blue;
 }
 .row{
     float: left;
