@@ -5716,8 +5716,8 @@ form {
 form input[type="text"], form input[type="email"], form textarea, form select, form input[type="tel"]{
     border: 1px solid #CCC;
     color: #888;
-    height: 30px;
-	line-height:15px;
+    height: 35px;
+	line-height:24px;
     margin-bottom: 16px;
     margin-right: 6px;
     margin-top: 2px;
@@ -5741,7 +5741,7 @@ form select {
     text-overflow: '';
     width: 70%;
     height: 35px;
-    line-height:15px;
+    line-height: 24px;
 }
 
 /*form input[type=checkbox] {
@@ -5771,3 +5771,37 @@ input[type=checkbox] + span {
     cursor: pointer;
     background-image: url(images/dark-check-green.png);
 }*/
+
+form input[type=checkbox] {
+	margin-right: 5px;	
+}
+
+h1.entry-title.title-font-replace {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+.navbar-nav li:last-of-type a {
+	font-weight: bold;
+	font-family: "Times New Roman", Georgia, Serif;
+	line-height: 38px;
+}
+
+form .wpcf7-list-item {
+	margin-right: 45px;
+}
+
+.contact-us .contact-form {
+	display: none;
+}
+
+.register-btn:visited {
+	color: #fff !important;
+}
+
+.contact-us .white-text {
+	display: block;
+}
+
+.contact-us .section-legend {
+	display: inline-block;
+}
